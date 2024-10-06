@@ -32,8 +32,8 @@ The response includes an authorization token in its body.
 
 **The following users already exist in the system:**
 
-- `{ "username": "fish", password: "12345678" }`
-- `{ "username": "ben", password: "password" }`
+- `{ "username": "fish", "password": "12345678" }`
+- `{ "username": "ben", "password": "password" }`
 
 ❗ You should never use passwords like that in the real world!
 
@@ -45,7 +45,7 @@ The response includes a welcome message in its body.
 
 **Example of a new user:**
 
-- `{ "username": "jess", password: "abcdefgh" }`
+- `{ "username": "jess", "password": "abcdefgh" }`
 
 #### Endpoint C: [GET] `http://localhost:3003/api/stars`
 
